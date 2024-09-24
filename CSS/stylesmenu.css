@@ -242,7 +242,6 @@ body {
 }
 
 .click-info {
-    position: right;
     margin-left: 251px;
     font-size: 12px;
     margin-top: -22px;
@@ -302,7 +301,6 @@ body {
 }
 
 .click-info2 {
-    position: right;
     margin-left: 220px;
     font-size: 12px;
     z-index: 2;
@@ -368,7 +366,7 @@ body {
     background-color: #d9d9d9;
     border-radius: 30px 30px 0 0;
     margin-top: 50px;
-    align-items: c;
+    align-items: center;
 }
 
 .footer h5 {
@@ -384,7 +382,6 @@ body {
 
 .footer-links {
     display: flex;
-    flex-direction: space-between;
     align-items: center;
     justify-content: center;
     background-color: #da6382;

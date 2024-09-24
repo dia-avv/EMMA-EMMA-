@@ -234,7 +234,6 @@ header .icons a img {
 .calendar table {
     width: 100%;
     height: 280px;
-    box-align: center;
     color: black;
     border-collapse: collapse;
 }
@@ -374,7 +373,7 @@ header .icons a img {
     background-color: #d9d9d9;
     border-radius: 30px 30px 0 0;
     margin-top: 50px;
-    align-items: c;
+    align-items: center;
 }
 
 .footer h5 {
@@ -390,7 +389,6 @@ header .icons a img {
 
 .footer-links {
     display: flex;
-    flex-direction: space-between;
     align-items: center;
     justify-content: center;
     background-color: #da6382;

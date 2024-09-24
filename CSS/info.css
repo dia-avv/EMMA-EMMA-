@@ -191,7 +191,6 @@ header .icons a img {
     margin-left: -20px;
     margin-right: 20px;
     margin-top: -50px;
-    text-transform: justify;
 }
 
 .main-banner-waves {
@@ -232,7 +231,6 @@ header .icons a img {
     margin-left: 20px;
     margin-right: 20px;
     margin-top: -50px;
-    text-transform: justify;
 }
 
 /* ------------ FOOTER ---------------- */
@@ -242,7 +240,7 @@ header .icons a img {
     background-color: #d9d9d9;
     border-radius: 30px 30px 0 0;
     margin-top: 50px;
-    align-items: c;
+    align-items: center;
 }
 
 .footer h5 {
@@ -258,7 +256,6 @@ header .icons a img {
 
 .footer-links {
     display: flex;
-    flex-direction: space-between;
     align-items: center;
     justify-content: center;
     background-color: #da6382;
