@@ -1,0 +1,457 @@
+@font-face {
+    font-family: 'Youthopia';
+    src: 
+         url('fonts/YOUTHOPIA.TTF') format('TTF');
+    font-weight: normal; 
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #5d4b3e;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ---------- HEADER --------- */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    width: 100vw;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.00), 0px 26px 10px 0px rgba(0, 0, 0, 0.04), 0px 15px 9px 0px rgba(0, 0, 0, 0.13), 0px 7px 7px 0px rgba(0, 0, 0, 0.10), 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+}
+
+.navigation-container {
+    padding: 16px 0;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 32px;
+}
+
+.logo {
+    height: 130px;
+}
+
+.burger-menu {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.navigation ul.active {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    width: 100%;
+    top: 100px;
+    left: 0;
+    background-color: #ffffff;
+    z-index: 1000;
+}
+
+.navigation ul {
+    display: none;
+}
+
+.navigation ul li {
+    margin: 16px 0;
+    text-align: center;
+}
+
+.burger-menu .line {
+    width: 25px;
+    height: 2px;
+    background-color: #000;
+    margin: 3px 0;
+    border-radius: 30px;
+}
+
+.link {
+    color: rgb(0, 0, 0);
+}
+
+.active-link {
+    color: white;
+    background-color: #da6382;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 100px;
+    font-family: "Inter", sans-serif;
+    width: 100px;
+}
+
+header .logo img {
+    width: 60px;
+    position: fixed;
+}
+
+header .icons a img {
+    width: 25px;
+    margin-left: 250px;
+    margin-top: 15px;
+}
+
+/* --------- HEADER END ---------- */
+
+/* --------- MAIN BANNER --------- */
+
+.main-banner {
+    position: relative;
+    text-align: center;
+    margin-top: 100px;
+    z-index: 0;
+}
+
+.main-banner img {
+    width: 100%;
+    height: auto;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #f2eeb8;
+    margin-top: 260px;
+}
+
+.menu-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #da6382;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    width: 200px;
+    height: 60;
+    font-size: 10px;
+    box-shadow: 0px 41px 11px 0px rgba(0, 0, 0, 0.00), 0px 26px 10px 0px rgba(0, 0, 0, 0.04), 0px 15px 9px 0px rgba(0, 0, 0, 0.13), 0px 7px 7px 0px rgba(0, 0, 0, 0.22), 0px 2px 4px 0px rgba(0, 0, 0, 0.26);
+}
+
+/* --------- MAIN BANNER END--------- */
+
+/* --------- ABOUT US ------------- */
+.about-us {
+    background-color: #f9f3ea;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.about-us img {
+    width: 100vw;
+    border-radius: 20px;
+    margin-top: -150px;
+    
+}
+
+.about-us h2 {
+    font-family: Youthopia;
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-align: right;
+    margin-left: 162px;
+    margin-right: 25px ;
+    color:#EEEB56 ;
+}
+
+.about-us p {
+    font-size: 16px;
+    line-height: 1.2;
+    color: #ffffff;
+    text-align: right;
+    margin-right: 25px;
+    margin-left: 240px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.container {
+    position: relative;
+}
+
+.emma {
+    position: relative;
+    left: 0px;
+    margin-top: 10px;
+    z-index: 50;
+}
+
+.about-us-text {
+    position: relative;
+    top: -380px;
+    z-index: 100;
+}
+
+/* --------- ABOUT US END --------- */
+
+/* --------- REVIEWS ------------- */
+.reviews h1{
+    color: #2C76A8;
+    margin-bottom: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 32px;
+}
+
+.review-container {
+    position: relative;
+    margin-top: -400px;
+    z-index: 0;
+}
+.reviews {
+    background-color: #ffffff;
+    width: 370px;
+    height: 530px;
+    padding: 26px;
+    border-radius: 20px;
+    position: center;
+    text-align: center;
+    align-self: center;
+    margin: auto;
+    border-radius: 30px;
+    background: var(--White, #FFF);
+    box-shadow: 0px 64px 18px 0px rgba(0, 0, 0, 0.00), 0px 41px 16px 0px rgba(0, 0, 0, 0.01), 0px 23px 14px 0px rgba(0, 0, 0, 0.05), 0px 10px 10px 0px rgba(0, 0, 0, 0.09), 0px 3px 6px 0px rgba(0, 0, 0, 0.10);
+    position: relative;
+    top: -250px;
+
+}
+
+.food-bg {
+    position: relative;
+}
+
+
+.reviews h2{
+    align-self: left;
+    font-size: 16px;
+    color:#EEEB56;
+    margin-bottom: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.reviews p {
+    font-size: 10px;
+    color: #ffffff;
+    justify-content: center;
+}
+
+.one-review {
+    background-color: #da6382;
+    width: 235px;
+    height: 130px;
+    border-radius: 20px 20px 20px 0;
+    padding: 20px;
+    padding-top: 9px;
+    position: relative;
+    left: -10px;
+}
+
+.two-review {
+    background-color: #da6382;
+    width: 235px;
+    height: 130px;
+    border-radius: 20px 20px 0 20px;
+    padding: 20px;
+    position: relative;
+    right: -10px;
+}
+
+.review-box {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    z-index: 0;
+    margin-bottom: 9px;
+}
+
+.review-box-two {
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    z-index: 0;
+    margin-bottom: 9px;
+}
+
+.review-box-two img {
+    position: relative;
+    left: -10px;
+    border-radius: 20px 20px 20px 0;
+    z-index: 0;
+}
+
+.review-box img {
+    position: relative;
+    right: -10px;
+    border-radius: 20px 20px 0 20px;
+    z-index: 0;
+}
+
+/* ---------- REVIEWS END ------------ */
+
+/* ----------- EVENTS -------------- */
+
+.events {
+    margin-top: -200px;
+}
+
+.events h1 {
+    text-align: center;
+    color: #EEEB56;
+    margin-bottom: 42px;
+    margin-left: auto;
+    margin-right:auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #da6382;
+    border-radius: 20px;
+    padding-top: 11px;
+    padding-bottom: 6px;
+    padding-left: 60px;
+    padding-right: 60px;
+    width: 348px;
+    box-shadow: 0px 64px 18px 0px rgba(0, 0, 0, 0.00), 0px 41px 16px 0px rgba(0, 0, 0, 0.01), 0px 23px 14px 0px rgba(0, 0, 0, 0.05), 0px 10px 10px 0px rgba(0, 0, 0, 0.09), 0px 3px 6px 0px rgba(0, 0, 0, 0.10);
+}   
+
+.image-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 373px;
+}
+
+/* ------------- EVENTS END ----------- */
+
+/* ------------ SOCIAL MEDIA ---------- */
+.social-media {
+    position: relative;
+}
+
+.waves {
+    z-index:0;
+    width: 100vw;
+}
+
+.social-text {
+    position:relative;
+    z-index: 100px;
+    margin-top: -420px;
+}
+
+.social-text h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#EEEB56;
+    width: 297px;
+    font-size: 32px;
+    margin-left: 105px;
+    margin-right: auto;
+}
+
+.insta-post {
+    width: 280px;
+    height: 366px;
+    margin-left: 60px;
+}
+
+.socials-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+.socials-icons {
+    margin-left: 190px;
+    padding-top: 15px;
+}
+/* ------------ SOCIAL MEDIA END --------- */
+
+/* ------------ FOOTER ---------------- */
+.footer {
+    height: 650px;
+    width: 100vw;
+    background-color: #d9d9d9;
+    border-radius: 30px 30px 0 0;
+    margin-top: 50px;
+    align-items: c;
+}
+
+.footer h5 {
+    margin-left: 70px;
+}
+
+.mapstyle {
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    width: 350px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: space-between;
+    align-items: center;
+    justify-content: center;
+    background-color: #da6382;
+    width: 350px;
+    height: 31px;
+    border-radius: 20px;
+    margin-left: 42px;
+    margin-top: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.text-footer {
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.logo-footer {
+    width: 67px;
+    margin-left: 185px;
+}
+
+.rights {
+    margin-top:10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+/* ------------ FOOTER END -------------- */

@@ -1,0 +1,298 @@
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #5d4b3e;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #5d4b3e;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ---------- HEADER --------- */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    width: 100vw;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.00), 0px 26px 10px 0px rgba(0, 0, 0, 0.04), 0px 15px 9px 0px rgba(0, 0, 0, 0.13), 0px 7px 7px 0px rgba(0, 0, 0, 0.10), 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+}
+
+.navigation-container {
+    padding: 16px 0;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 32px;
+}
+
+.logo {
+    height: 130px;
+}
+
+.burger-menu {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.navigation ul.active {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    width: 100%;
+    top: 100px;
+    left: 0;
+    background-color: #ffffff;
+    z-index: 1000;
+}
+
+.navigation ul {
+    display: none;
+}
+
+.navigation ul li {
+    margin: 16px 0;
+    text-align: center;
+}
+
+.burger-menu .line {
+    width: 25px;
+    height: 2px;
+    background-color: #000;
+    margin: 3px 0;
+    border-radius: 30px;
+}
+
+.link {
+    color: rgb(0, 0, 0);
+}
+
+.active-link {
+    color: white;
+    background-color: #da6382;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 100px;
+    font-family: "Inter", sans-serif;
+    width: 100px;
+}
+
+header .logo img {
+    width: 60px;
+    position: fixed;
+}
+
+header .icons a img {
+    width: 25px;
+    margin-left: 250px;
+    margin-top: 15px;
+}
+
+/* --------- HEADER END ---------- */
+
+
+
+.main-banner-menu {
+    position: relative;
+    text-align: center;
+    margin-top: 330px;
+    z-index: 0;
+}
+
+.main-banner-menu img {
+    width: 100%;
+    height: auto;
+    margin-top: -400px;
+}
+
+.text-overlay-menu h2 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:32px; 
+    color: #EEEB56;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: -300px;
+    margin-bottom: 0px;
+}
+
+.text-overlay-menu p {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:18px; 
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: -190px;
+    margin-bottom: 0px;
+}
+
+.text-overlay-menu h3 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:26px;
+    color:#2C76A8;
+    font-weight: bold;
+    margin-top: -30px;
+    margin-bottom: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.sad-dog{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.text-paragraph {
+    text-align: left;
+    font-weight: 600;
+    color:#000;
+    font-size: 16px;
+    margin-left: -20px;
+    margin-right: 20px;
+    margin-top: -50px;
+    text-transform: justify;
+}
+
+.main-banner-waves {
+    position: relative;
+    text-align: center;
+    margin-top: 330px;
+    z-index: 0;
+}
+
+.main-banner-waves img {
+    width: 100%;
+    height: auto;
+    margin-top: -350px;
+}
+
+.text-overlay-waves h2 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:32px; 
+    color: #EEEB56;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: -400px;
+    margin-bottom: 0px;
+}
+
+.text-overlay-waves img {
+    width: 300px;
+    height: 400px;
+}
+
+.text-overlay-waves p {
+    text-align: left;
+    font-weight: 600;
+    color:#000;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -50px;
+    text-transform: justify;
+}
+
+/* ------------ FOOTER ---------------- */
+.footer {
+    height: 650px;
+    width: 100vw;
+    background-color: #d9d9d9;
+    border-radius: 30px 30px 0 0;
+    margin-top: 50px;
+    align-items: c;
+}
+
+.footer h5 {
+    margin-left: 70px;
+}
+
+.mapstyle {
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    width: 350px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: space-between;
+    align-items: center;
+    justify-content: center;
+    background-color: #da6382;
+    width: 350px;
+    height: 31px;
+    border-radius: 20px;
+    margin-left: 42px;
+    margin-top: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.text-footer {
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 30px;
+
+}
+
+.logo-footer {
+    width: 67px;
+    margin-left: 185px;
+}
+
+.rights {
+    margin-top:10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+/* ------------ FOOTER END -------------- */

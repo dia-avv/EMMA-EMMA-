@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #5d4b3e;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ---------- HEADER --------- */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    width: 100vw;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.00), 0px 26px 10px 0px rgba(0, 0, 0, 0.04), 0px 15px 9px 0px rgba(0, 0, 0, 0.13), 0px 7px 7px 0px rgba(0, 0, 0, 0.10), 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+}
+
+.navigation-container {
+    padding: 16px 0;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 32px;
+}
+
+.logo {
+    height: 130px;
+}
+
+.burger-menu {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.navigation ul.active {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    width: 100%;
+    top: 100px;
+    left: 0;
+    background-color: #ffffff;
+    z-index: 1000; 
+}
+
+.navigation ul {
+    display: none;
+}
+
+.navigation ul li {
+    margin: 16px 0;
+    text-align: center;
+}
+
+.burger-menu .line {
+    width: 25px;
+    height: 2px;
+    background-color: #000;
+    margin: 3px 0;
+    border-radius: 30px;
+}
+
+.link {
+    color: rgb(0, 0, 0);
+}
+
+.active-link {
+    color: white;
+    background-color: #da6382;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 100px;
+    font-family: "Inter", sans-serif;
+    width: 100px;
+}
+
+header .logo img {
+    width: 60px;
+    position: fixed;
+}
+
+header .icons a img {
+    width: 25px;
+    margin-left: 250px;
+    margin-top: 15px;
+}
+
+/* --------- HEADER END ---------- */
+
+/* --- MAIN BANNER --- */
+
+.main-banner-events {
+    position: relative;
+    text-align: center;
+    margin-top: 330px;
+    z-index: 0;
+}
+
+.main-banner-events img {
+    width: 100%;
+    height: auto;
+    margin-top: -250px;
+}
+
+.text-overlay-events {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:24px; 
+    color: #EEEB56;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: -400px;
+}
+
+/* ------------------ CALENDAR SECTION --------------- */
+
+.calendar-container p {
+    color: white;
+    text-align: left;
+    margin-left: 53px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+.calendar {
+    padding: 20px;
+    width: 320px;
+    height: 320px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin-left: 53px;
+    box-shadow: 0px 64px 18px 0px rgba(0, 0, 0, 0.00), 0px 41px 16px 0px rgba(0, 0, 0, 0.01), 0px 23px 14px 0px rgba(0, 0, 0, 0.05), 0px 10px 10px 0px rgba(0, 0, 0, 0.09), 0px 3px 6px 0px rgba(0, 0, 0, 0.10);
+    z-index: 3;
+    align-items: center;
+    margin-bottom: 78px;
+    
+}
+
+.calendar h3 {
+    color: #2C76A8;
+    text-align: left;
+    margin: 0;
+    padding: 10px 0;
+    font-size: 18px;
+}
+
+.calendar-container {
+    position: relative;
+    margin-top: -420px;
+    z-index:1;
+}
+
+.calendar table {
+    width: 100%;
+    height: 280px;
+    box-align: center;
+    color: black;
+    border-collapse: collapse;
+}
+
+.calendar table th {
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.calendar table td {
+    text-align: center;
+    border: 1px solid #d9d9d9;
+    box-sizing: border-box;
+    width: 14.28%;
+    font-size: 12px;
+}
+
+.today {
+    background-color: #2C76A8;
+    color: white;
+}
+
+/* ------------------ CALENDAR SECTION END --------------- */
+
+/* --- MAIN BANNER END --- */
+
+/* ------------------ UPCOMING SECTION ------------------- */
+
+.upcoming-events h1 {
+    color: #2C76A8;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 36px;
+}
+
+.upcoming-events{
+    margin-left: 60px;
+}
+.upcoming-events h1{
+    margin-left:-60px;
+    margin-top:-10px;
+}
+
+/* ------------------ UPCOMING SECTION END ------------------- */
+
+/* ------------ FOOTER ---------------- */
+.footer {
+    height: 650px;
+    width: 100vw;
+    background-color: #d9d9d9;
+    border-radius: 30px 30px 0 0;
+    margin-top: 50px;
+    align-items: c;
+}
+
+.footer h5 {
+    margin-left: 70px;
+}
+
+.mapstyle {
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    width: 350px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: space-between;
+    align-items: center;
+    justify-content: center;
+    background-color: #da6382;
+    width: 350px;
+    height: 31px;
+    border-radius: 20px;
+    margin-left: 42px;
+    margin-top: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.text-footer {
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.logo-footer {
+    width: 67px;
+    margin-left: 185px;
+}
+
+.rights {
+    margin-top:10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* ------------ FOOTER END ---------------- */
